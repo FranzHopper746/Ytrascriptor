@@ -6,15 +6,20 @@ Il pitone (3.10, ma credo >= 3 sia abbastanza) e pip e python-venv non so come s
 Crea l'environment di venv
 
 ```bash
-python3 -m venv ytrascriptor
+python -m venv ytrascriptor
 ```
 
 Attiva l'environment (da fare ogni volta)
 
+Linux:
 ```bash
 source ytrascriptor/bin/activate
 ```
 
+Windows:
+```bash
+.\ytrascriptor\Scripts\activate.bat
+```
 Installa sta roba
 
 ```bash
@@ -30,5 +35,5 @@ winget.exe install ffmpeg
 ## Esempio di sta tragedia
 
 ```bash
-python3 Ytrascriptor.py "url del video"
+python Ytrascriptor.py "url del video"
 ```
