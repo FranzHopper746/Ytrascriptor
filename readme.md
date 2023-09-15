@@ -23,7 +23,7 @@ Windows:
 Installa sta roba
 
 ```bash
-pip install requirements
+pip install -r requirements.txt
 ```
 
 Credo che si debba installare ffmpeg, su Windows dovrebbe bastare sta roba:
@@ -37,3 +37,7 @@ winget.exe install ffmpeg
 ```bash
 python Ytrascriptor.py "url del video"
 ```
+
+## CUDA
+
+boh
