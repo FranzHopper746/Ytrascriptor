@@ -40,4 +40,10 @@ python Ytrascriptor.py "url del video"
 
 ## CUDA
 
-boh
+Installa i driver CUDA, Cudnn, poi reinstalla pytorch
+
+```bash
+pip uninstall torch torchvision torchaudio
+
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
